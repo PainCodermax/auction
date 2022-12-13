@@ -1,0 +1,79 @@
+.DetailProduct_detail{
+    height: 75px;
+    background-color: var(--menu-color);
+    border-radius: 5px;
+}
+.DetailProduct_content{
+    font-size: 15px;
+    padding: 25px;
+    line-height: 20px;
+}
+.DetailProduct_contentphone{
+    font-size: 15px;
+    padding: 25px;
+    line-height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.DetailProduct_product{
+    height: 420px;
+    background-color: var(--menu-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+.DetailProduct_product img {
+    height: 397px;
+    width: 400px;
+}
+.DetailProduct_infor{
+    display: grid;
+    grid-template-rows: 235px 143px;
+    row-gap: 20px;
+    width: 765px;
+    height: 399px;
+    float:right;
+    
+}
+.DetailProduct_diferrence{
+    border-radius: 5px;
+    font-size: 15px;
+    padding : 10px;
+    border: none;
+    float: right;
+    position: relative;
+    bottom: -60px;
+    left: 10px;
+}
+.DetailProduct_diferrence:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+.DetailProduct_confirm{
+    font-size: 15px;
+    padding: 25px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.DetailProduct_confirm input{
+    background-color: var(--menu-color);
+    width: 420px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.DetailProduct_confirm button{
+    background-color: var(--main-color);
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+    float: right;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.DetailProduct_confirm-btn:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}

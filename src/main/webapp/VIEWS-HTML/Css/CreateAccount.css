@@ -1,0 +1,89 @@
+.container__create-account-form {
+    position: relative;
+    left: 630px;;
+    width: 450px;
+    position: relative;
+    left: 540px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#container__create-account-lname,
+#container__create-account-fname,
+#container__create-account-user {
+    width: 300px;
+    margin: 10px 0;
+    padding: 0;
+}
+#container__create-account-lname,
+#container__create-account-fname,
+#container__create-account-user {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    padding: 0 20px;
+}
+.container__create-account-form-control span {
+    font-size: 1.6rem;
+}
+
+#container__create-account-email {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    padding: 0 20px;
+    width: 300px;
+    margin: 10px 0;
+    position: relative;
+    left: 37px;
+}
+
+#container__create-account-address {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    padding: 0 20px;
+    width: 300px;
+    margin: 10px 0;
+    position: relative;
+    left: 18px;
+}
+#container__create-account-phone {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    padding: 0 20px;
+    width: 300px;
+    margin: 10px 0;
+    position: relative;
+    left: 31px;
+}
+#container__create-account-password {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    padding: 0 20px;
+    width: 300px;
+    margin: 10px 0;
+    position: relative;
+    left: 5px;
+}
+.create-btn {
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    width: 400px;
+}
+.create-btn:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
